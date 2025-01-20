@@ -1,0 +1,114 @@
+.jack{
+   
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+        color:red;
+      }
+
+}
+img {
+  padding: 20px;
+    border-radius: 8px;
+    align-items: center;
+    
+  }
+  .arun{
+    size:bold;
+    text-transform: uppercase;
+    color: red;
+    text-align: center;
+    animation-name: DEV1;
+    position: relative;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes DEV1{
+    0%{color: red;}
+    25%{color: yellow;}
+    50%{color: palegreen;}
+    75%{color: black;}
+    100%{color: skyblue;}
+  }
+ .rose {
+    color:red;
+ }
+ body { 
+    background: rgb(255, 247, 247); 
+} 
+.hh5{
+  text-align: center;
+  color:red;
+}
+.aa{
+  color: whitesmoke;
+  text-decoration: none;
+  float: left;
+  padding: 10;
+  text-decoration: solid;
+}
+.bb{
+  color:whitesmoke;
+  text-decoration: none;
+  float: left ;
+  padding: 10px; ;
+}
+.cc{
+  color:whitesmoke;
+  text-decoration: none;
+  float: left;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+
+.dd{
+  color:whitesmoke;
+  text-decoration: none;
+  float:left;
+  padding: 10px;
+  text-align: left;
+}
+a:hover {
+  background-color: rgb(255, 0, 0);
+  font-size: 18px;
+  
+
+  }
+.big{
+  color: lavenderblush;
+  font-size: larger;
+  float:left;
+  text-align: center;
+}
+
+.go{
+  text-align: center;
+}
+.ss{
+  size: 40%;
+}
+.search-containetr{
+  size: 30px;
+}
+
+.avatar{
+  width: 30px;
+}
+marquee{
+  color: rgb(165, 42, 161);
+  font-size: large;
+  border: solid 8px yellow;
+}
+.nun{
+  border: white;
+}
+.dog{
+  float: right;
+  position: relative;
+  background-color: blanchedalmond;
+}
+h4{
+  float: right;
+  padding-left: 10px;
+}
