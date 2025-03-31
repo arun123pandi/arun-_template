@@ -3,555 +3,176 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TFC</title>
-    <link rel="icon" href="Chickenlogo.jpg">
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>
+        website
+    </title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 </head>
 <body>
-    <h1 class="arun">ARUN RESTAURANT</h1>
+    <!--nav-->
+    <div class="container-fluid col-10">
+       
+       <nav class="navbar navbar-expand-lg"  id="navbar">
+        <b>frontend forever</b>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-menu-down" viewBox="0 0 16 16">
+                <path d="M7.646.146a.5.5 0 0 1 .708 0L10.207 2H14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h3.793zM1 7v3h14V7zm14-1V4a1 1 0 0 0-1-1h-3.793a1 1 0 0 1-.707-.293L8 1.207l-1.5 1.5A1 1 0 0 1 5.793 3H2a1 1 0 0 0-1 1v2zm0 5H1v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM2 4.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5m0 4a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5"/>
+              </svg>
+
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms auto mb-lg-0" >
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+
+                </li>
+                <li>
+                    <a class="nav-link" href="#about">about</a>
+
+                </li>
+                <li>
+                    <a class="nav-link"  href="#service">service</a>
+
+                </li>
+                <li>
+                    <a class="nav-link"  href="#contact">contact</a>
+
+                </li>
+            </ul>
+        </div>
+       </nav>
+       <section id="Home">
+<div class="row">
+    <div class="col-lg-6 col-md-6 col-2">
+        <h1 class="display-4">Welcome To <br><span>Fronted Forever </span></h1>
+        <p class="my-lg-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa veniam a neque ratione, omnis perferendis sint nostrum laudantium leniti minima ab libero, harum itaque?
+        </p>
+        <button class="btn btn-primary my-lg-2 my-3">Get Started</button>
+    </div>
+<div class="col-lg-6 col-md-6 col-20 py-lg-0py-3 order-sm-2">
+<img src="https://img.freepik.com/free-vector/colorful-illustration-programmer-working_23-2148281409.jpg?uid=R185170422&ga=GA1.1.1105857057.1736410726&semt=ais_hybrid" alt="" class="img-fluid">
+</div>
+
+</div>
 
 
-   
-  <style>
-    * {box-sizing: border-box;}
-    
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    .topnav {
-      overflow: hidden;
-      background-color: #e9e9e9;
-    }
-    
-    .topnav a {
-      float: left;
-      display: block;
-      color: black;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-    }
-    
-    .topnav a:hover {
-      background-color: #ddd;
-      color: black;
-    }
-    
-    .topnav a.active {
-      background-color: #2196F3;
-      color: white;
-    }
-    
-    .topnav .search-container {
-      float: right;
-    }
-    
-    .topnav input[type=text] {
-      padding: 6px;
-      margin-top: 8px;
-      font-size: 17px;
-      border: none;
-    }
-    
-    .topnav .search-container button {
-      float: right;
-      padding: 6px 10px;
-      margin-top: 8px;
-      margin-right: 16px;
-      background: #ddd;
-      font-size: 17px;
-      border: none;
-      cursor: pointer;
-    }
-    
-    .topnav .search-container button:hover {
-      background: #ccc;
-    }
-    
-    @media screen and (max-width: 600px) {
-      .topnav .search-container {
-        float: none;
-      }
-      .topnav a, .topnav input[type=text], .topnav .search-container button {
-        float: none;
-        display: block;
-        text-align: left;
-        width: 100%;
-        margin: 0;
-        padding: 14px;
-      }
-      .topnav input[type=text] {
-        border: 1px solid #ccc;  
-      }
-    }
-    </style>
-    </head>
-    <body>
-    
-    <div class="topnav">
-      <a class="active" href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-      <div class="search-container">
-        <form action="/action_page.php">
-          <input type="text" placeholder="Search.." name="search">
-          <button type="submit"><i class="fa fa-search"></i></button>
+
+
+       </section>
+       <!--about-->
+       <section id="about">
+        <div class="row">
+        <div class="col-lg-6 col-lg-6 col-12 py-lg-0 py-3 ">
+<img src="https://img.freepik.com/premium-vector/small-mini-keyboard-with-programming-icons-developer-concept-isometric-vector-illustration_681307-296.jpg?uid=R185170422&ga=GA1.1.1105857057.1736410726&semt=ais_hybrid" alt="" class="img-fluid">
+
+
+
+        </div>
+        <div class="col-lg-6 col-md-6 col-12 pt-5">
+            <h6 style="font-size: 50px;">About us</h6>
+            <h1 class=" display-5"> <span>Frontend  Forever </span> </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum libero provident blanditiis maxime a numquam officia unde perferendis iusto aperiam natus impedit laboriosam eos eum facere amet pariatur, maiores minus!</p>
+               <button class="btn btn-primary my-lg-2 my-3">  Get Started</button>
+        </div>
+</div>
+       </section>
+       <!--service-->
+       <section id="service">
+        <div class="row">
+            <h1 class="text-center">our service</h1>
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-photo/hacker-using-laptop_53876-88407.jpg?uid=R185170422&ga=GA1.1.1105857057.1736410726&semt=ais_hybrid" alt="" class="card-img-top">
+               <div class="card-body">
+                <h5 class="card-title"> Responive website</h5>
+
+
+                    <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem omnis corporis debitis fuga, dignissimos temporibus minus blanditiis totam accusantium maiores nam nobis sequi aut vel, nemo praesentium quasi odio repellat?</div>
+                <a href="#" type="button" class="btn btn-success"> Learn More</a>
+
+
+               </div> 
+
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+       </section>
+       <!--contact-->
+       <section id="contact">
+        <div class="co-lg-4 c0l-md col-2">
+            <form action="
+            ">
+       <div class="mb-3 text-center">
+        <h3>contact form</h3>
+       </div>
+       <div class="mb-3">
+        <label class="form-label" for="">Name</label>
+        <input type="text" class="form-control">
+
+       </div>
+       <div class="mb-3">
+        <label class="form-label" for="">E mail</label>
+        <input type="text" 
+        class="form-control">
+
+       </div>
+       <div class="mb-3">
+        <label  class="form-label" for="">password</label>
+        <input type="text"class="form-control">
+        
+
+       </div>
+       <div class="co-lg-6 col-md-6 col-12 py-ly-2 py-3">
+        <button class="btn  btn-primary">Submit</button>
+       </div>
         </form>
-      </div>
+        </div>
+       </section>
     </div>
-    
-  
-    <div class="jack">
-      <h1>𝓐 𝓫𝓸𝔀𝓵 𝓸𝓯 𝓶𝓮𝓪𝓵 𝓲𝓼 𝓪 𝓽𝓪𝓼𝓽 𝓭𝓮𝓪𝓵 </h1>
-    </div>
-  
- 
-  
-  <img src="https://cookr.in/images/ourBlog/blog02Content01.webp" width="100%"> 
-    
-  <h2 class="hh5">𝒄𝒐𝒖𝒏𝒕 𝒕𝒉𝒆 𝒎𝒆𝒎𝒐𝒓𝒊𝒆𝒔 𝒏𝒐𝒕 𝒕𝒉𝒆 𝒄𝒂𝒍𝒐𝒓𝒊𝒆𝒔 </h2>
- 
- 
-  
-  <script>
-  function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-  }
-  
-  function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-  }
-  </script>
- 
-    
-      <div class="nun">
-        <a href="samosa.html">samosa</a>
-          <img href="SAMOSA.html" src="SAMOSA.jpeg" alt=""width="30%">
-          
-         <a href="mutton.html">mutton</a> 
-       <img src="MUTTON_KEEMA_MATAR.jpg" alt="" width="30%">
-       <a href="momos.html">momos</a> 
-       <img src="https://madhurasrecipe.com/wp-content/uploads/2020/10/How-to-Make-Veg-Momos.jpg" alt="" width="30%">
-       <a href="burger "> burger king</a>
-       <img src="https://b.zmtcdn.com/data/pictures/chains/1/49781/5f22edaa3391108ad75776b4cbce296e.jpg?fit=around|960:500&crop=960:500;*,*" alt="" width="30%">
-       <a href="barbequee nation">barbequee </a>
-       <img src="https://b.zmtcdn.com/data/pictures/chains/6/110026/ea322041eaddcf89303c360274a18f6b.jpg?fit=around|960:500&crop=960:500;*,*" alt="" width="30%">
-       <a href="kfc"> kfc</a>
-       <img src="https://images.jdmagicbox.com/comp/delhi/a5/011pxx11.xx11.191129200330.r1a5/catalogue/kfc-dabri-delhi-fast-food-0cw2qlrm9j.jpg" alt=""width="30%">
-    </div>
-    <style>
-      body {
-        font-family: Arial;
-        margin: 0;
-      }
-      
-      * {
-        box-sizing: border-box;
-      }
-      
-      img {
-        vertical-align: middle;
-      }
-      
-      /* Position the image container (needed to position the left and right arrows) */
-      .container {
-        position: relative;
-      }
-      
-      /* Hide the images by default */
-      .mySlides {
-        display: none;
-      }
-      
-      /* Add a pointer when hovering over the thumbnail images */
-      .cursor {
-        cursor: pointer;
-      }
-      
-      /* Next & previous buttons */
-      .prev,
-      .next {
-        cursor: pointer;
-        position: absolute;
-        top: 40%;
-        width: auto;
-        padding: 16px;
-        margin-top: -50px;
-        color: white;
-        font-weight: bold;
-        font-size: 20px;
-        border-radius: 0 3px 3px 0;
-        user-select: none;
-        -webkit-user-select: none;
-      }
-      
-      /* Position the "next button" to the right */
-      .next {
-        right: 0;
-        border-radius: 3px 0 0 3px;
-      }
-      
-      /* On hover, add a black background color with a little bit see-through */
-      .prev:hover,
-      .next:hover {
-        background-color: rgba(0, 0, 0, 0.8);
-      }
-      
-      /* Number text (1/3 etc) */
-      .numbertext {
-        color: #f2f2f2;
-        font-size: 12px;
-        padding: 8px 12px;
-        position: absolute;
-        top: 0;
-      }
-      
-      /* Container for image text */
-      .caption-container {
-        text-align: center;
-        background-color: #222;
-        padding: 2px 16px;
-        color: white;
-      }
-      
-      .row:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
-      
-      /* Six columns side by side */
-      .column {
-        float: left;
-        width: 16.66%;
-      }
-      
-      /* Add a transparency effect for thumnbail images */
-      .demo {
-        opacity: 0.6;
-      }
-      
-      .active,
-      .demo:hover {
-        opacity: 1;
-      }
-      </style>
-      <style>
-        * {box-sizing: border-box}
-        body {font-family: Verdana, sans-serif; margin:0}
-        .mySlides {display: none}
-        img {vertical-align: middle;}
-        
-        /* Slideshow container */
-        .slideshow-container {
-          max-width: 1000px;
-          position: relative;
-          margin: auto;
-        }
-        
-        /* Next & previous buttons */
-        .prev, .next {
-          cursor: pointer;
-          position: absolute;
-          top: 50%;
-          width: auto;
-          padding: 16px;
-          margin-top: -22px;
-          color: white;
-          font-weight: bold;
-          font-size: 18px;
-          transition: 0.6s ease;
-          border-radius: 0 3px 3px 0;
-          user-select: none;
-        }
-        
-        /* Position the "next button" to the right */
-        .next {
-          right: 0;
-          border-radius: 3px 0 0 3px;
-        }
-        
-        /* On hover, add a black background color with a little bit see-through */
-        .prev:hover, .next:hover {
-          background-color: rgba(0,0,0,0.8);
-        }
-        
-        /* Caption text */
-        .text {
-          color: #f2f2f2;
-          font-size: 15px;
-          padding: 8px 12px;
-          position: absolute;
-          bottom: 8px;
-          width: 100%;
-          text-align: center;
-        }
-        
-        /* Number text (1/3 etc) */
-        .numbertext {
-          color: #f2f2f2;
-          font-size: 12px;
-          padding: 8px 12px;
-          position: absolute;
-          top: 0;
-        }
-        
-        /* The dots/bullets/indicators */
-        .dot {
-          cursor: pointer;
-          height: 15px;
-          width: 15px;
-          margin: 0 2px;
-          background-color: #bbb;
-          border-radius: 50%;
-          display: inline-block;
-          transition: background-color 0.6s ease;
-        }
-        
-        .active, .dot:hover {
-          background-color: #717171;
-        }
-        
-        /* Fading animation */
-        .fade {
-          animation-name: fade;
-          animation-duration: 1.5s;
-        }
-        
-        @keyframes fade {
-          from {opacity: .4} 
-          to {opacity: 1}
-        }
-        
-        /* On smaller screens, decrease text size */
-        @media only screen and (max-width: 300px) {
-          .prev, .next,.text {font-size: 11px}
-        }
-        </style>
-        </head>
-        <body>
-          <marquee behavior="" direction=""scrollamount="20"> BUY ONE GET ONE FREE </marquee>
-        <div class="slideshow-container">
-        
-        <div class="mySlides fade">
-          <div class="numbertext">1 / 3</div>
-          <img src="burger.jpeg" style="width:100%">
-          <div class="text">Caption Text</div>
-        </div>
-        
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 3</div>
-          <img src="san.jpg" style="width:100%">
-          <div class="text">Caption Two</div>
-        </div>
-        
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 3</div>
-          <img src="Pizza.avif" style="width:100%">
-          <div class="text">Caption Three</div>
-        </div>
-        
-        <a class="prev" onclick="plusSlides(-1)">❮</a>
-        <a class="next" onclick="plusSlides(1)">❯</a>
-        
-        </div>
-        <br>
-        
-        <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span> 
-          <span class="dot" onclick="currentSlide(2)"></span> 
-          <span class="dot" onclick="currentSlide(3)"></span> 
-        </div>
-        
-        <script>
-        let slideIndex = 1;
-        showSlides(slideIndex);
-        
-        function plusSlides(n) {
-          showSlides(slideIndex += n);
-        }
-        
-        function currentSlide(n) {
-          showSlides(slideIndex = n);
-        }
-        
-        function showSlides(n) {
-          let i;
-          let slides = document.getElementsByClassName("mySlides");
-          let dots = document.getElementsByClassName("dot");
-          if (n > slides.length) {slideIndex = 1}    
-          if (n < 1) {slideIndex = slides.length}
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
-          }
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style.display = "block";  
-          dots[slideIndex-1].className += " active";
-        }
-        </script>
-        
-          
-          
-          
-       <style>
-        body {font-family: Arial, Helvetica, sans-serif;}
-        form {border: 3px solid #f1f1f1;}
-        
-        input[type=text], input[type=password] {
-          width: 100%;
-          padding: 12px 20px;
-          margin: 8px 0;
-          display: inline-block;
-          border: 1px solid #ccc;
-          box-sizing: border-box;
-        }
-        
-        button {
-          background-color: #04AA6D;
-          color: white;
-          padding: 14px 20px;
-          margin: 8px 0;
-          border: none;
-          cursor: pointer;
-          width: 100%;
-        }
-        
-        button:hover {
-          opacity: 0.8;
-        }
-        
-        .cancelbtn {
-          width: auto;
-          padding: 10px 18px;
-          background-color: #f44336;
-        }
-        
-        .imgcontainer {
-          text-align: center;
-          margin: 24px 0 12px 0;
-        }
-        
-        img.avatar {
-          width: 40%;
-          border-radius: 50%;
-        }
-        
-        .container {
-          padding: 16px;
-        }
-        
-        span.psw {
-          float: right;
-          padding-top: 16px;
-        }
-        
-        /* Change styles for span and cancel button on extra small screens */
-        @media screen and (max-width: 300px) {
-          span.psw {
-             display: block;
-             float: none;
-          }
-          .cancelbtn {
-             width: 100%;
-          }
-        }
-        </style>
-        </head>
 
-        <body>
-        
-        <h2>Login Form</h2>
-        
-        <form action="/action_page.php" method="post">
-          <div class="imgcontainer">
-            <img src="data:image/jpeg;base64,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" alt="">
-          </div>
-          <div class="container">
-            <label for="uname"><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
-        
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
-                
-            <button type="submit">Login</button>
-            <label>
-              <input type="checkbox" checked="checked" name="remember"> Remember me
-            </label>
-          </div>
-        
-          <div class="container" style="background-color:#f1f1f1">
-            <button type="button" class="cancelbtn">Cancel</button>
-            <span class="psw">Forgot <a href="#">password?</a></span>
-          </div>
-        </form>
-        <style>
-          body {margin:0;height:2000px;}
-          
-          .icon-bar {
-            position: fixed;
-            top: 50%;
-            transform: translateY(-50%);
-          }
-          
-          .icon-bar a {
-            display: block;
-            text-align: center;
-            padding: 16px;
-            transition: all 0.3s ease;
-            color: white;
-            font-size: 20px;
-          }
-          
-          .icon-bar a:hover {
-            background-color: #000;
-          }
-          
-          .facebook {
-            background: #3B5998;
-            color: white;
-          }
-          
-          .twitter {
-            background: #55ACEE;
-            color: white;
-          }
-          
-          .google {
-            background: #dd4b39;
-            color: white;
-          }
-          
-          .linkedin {
-            background: #007bb5;
-            color: white;
-          }
-          
-          .youtube {
-            background: #bb0000;
-            color: white;
-          }
-          
-          .content {
-            margin-left: 75px;
-            font-size: 30px;
-          }
-          </style>
-          <body>
-          
-          <div class="icon-bar">
-            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
-            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
-            <a href="#" class="google"><i class="fa fa-google"></i></a> 
-            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-            <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
-          </div>
       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>   
 </body>
 </html>
